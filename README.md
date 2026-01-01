@@ -2,11 +2,6 @@
 
 Project ideas and feature requests for OpenTools Hub. See [ABOUT.md](ABOUT.md) for more info.
 
-## Sizing Guide
-- **Small**: 1-2 days of focused work
-- **Medium**: 1-2 weeks of work
-- **Large**: Multi-week project, may need phased approach
-
 ---
 
 ## Vibe UI Hints
