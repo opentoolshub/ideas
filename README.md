@@ -2,6 +2,10 @@
 
 Project ideas and feature requests for OpenTools Hub. See [ABOUT.md](ABOUT.md) for more info.
 
+## Open Questions
+
+- [ ] Figure out how this project relates to [vibe-coding-guide](https://github.com/tmad4000/vibe-coding-guide)
+
 ---
 
 ## Vibe UI Hints
