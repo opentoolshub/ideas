@@ -1,0 +1,48 @@
+# Project Ideas Backlog
+
+## Sizing Guide
+- **Small**: 1-2 days of focused work
+- **Medium**: 1-2 weeks of work
+- **Large**: Multi-week project, may need phased approach
+
+---
+
+## Vibe UI Hints
+
+**Size:** Medium
+**Status:** Idea
+**Added:** 2025-12-31
+
+### Summary
+
+A Mac app that provides gentle visual hints to guide users through UI interactions. When you ask an AI assistant (ChatGPT, Claude) or search Google for "how to do X" and get step-by-step instructions, this app overlays subtle highlights on your screen showing exactly where to click.
+
+### Core Features
+
+- **Screen Overlay Hints**: Gentle visual indicators (highlights, arrows) that say "click here" for each step in a set of instructions
+- **Accessibility API Integration**: Uses macOS Accessibility APIs to identify clickable elements
+- **AI Instruction Parsing**: Takes step-by-step instructions and maps them to UI elements on screen
+
+### Future Enhancements
+
+- **Chrome Extension**: Extend to web apps for more precise element targeting within browsers
+- **Auto-Click Mode**: "Just do it for me" - automatically execute the clicks/actions
+- **Multi-App Support**: Works across any macOS application
+
+### Technical Considerations
+
+- Look at how [HomeRow](https://www.homerow.app/) implements keyboard-driven UI navigation for inspiration
+- macOS Accessibility APIs for element detection
+- Overlay window that sits above all other windows
+- Potentially use Vision/OCR for apps that don't expose accessibility info
+
+### Use Cases
+
+1. Following tutorial steps without switching between windows
+2. Helping less technical users navigate unfamiliar apps
+3. Automated workflows that are too simple for full scripting
+4. Accessibility aid for users who need visual guidance
+
+---
+
+*Add new ideas above this line*
