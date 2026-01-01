@@ -4,11 +4,7 @@ Project ideas and feature requests for OpenTools Hub. See [ABOUT.md](ABOUT.md) f
 
 ---
 
-## Vibe UI Hints
-
-**Size:** Medium
-**Status:** Idea
-**Added:** 2025-12-31
+- [ ] **Vibe UI Hints** — Medium — *Unclaimed*
 
 ### Summary
 
@@ -39,6 +35,35 @@ A Mac app that provides gentle visual hints to guide users through UI interactio
 2. Helping less technical users navigate unfamiliar apps
 3. Automated workflows that are too simple for full scripting
 4. Accessibility aid for users who need visual guidance
+
+---
+
+- [ ] **Open Contexts** — Medium — *Unclaimed*
+
+### Summary
+
+An open-source alternative to [Contexts.co](https://contexts.co) — a fast window switcher for macOS. The key differentiator: **sort by recency, not just alphabetically**, even when filtering windows within a specific application.
+
+### Core Features
+
+- **Window Switcher**: Quick keyboard-driven window switching (like Contexts)
+- **Recency Sorting**: Sort windows by most recently used, not alphabetically
+- **Per-App Filtering**: Filter to show only windows from a specific app, still sorted by recency
+- **Fuzzy Search**: Type to filter windows by title or app name
+
+### Why Open Source?
+
+Contexts.co is great but:
+- Only sorts alphabetically within apps
+- Closed source, can't add features
+- The window switcher is the main value — focus on doing that one thing well
+
+### Technical Considerations
+
+- macOS Accessibility APIs for window enumeration
+- Track window focus timestamps for recency sorting
+- Global hotkey activation
+- Fast, native UI (Swift/AppKit or SwiftUI)
 
 ---
 
